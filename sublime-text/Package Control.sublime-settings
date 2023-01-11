@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DistractionFreeWindow",
+		"Elixir",
+		"Emmet",
+		"GitGutter",
+		"HyperClick",
+		"JsPrettier",
+		"LSP",
+		"LSP-eslint",
+		"LSP-typescript",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+	],
+}

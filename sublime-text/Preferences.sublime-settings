@@ -1,0 +1,27 @@
+{
+	"binary_file_patterns":
+	[
+		"node_modules/*",
+		"_build/*",
+		".next/*",
+		"coverage/*",
+		"deps/*",
+	],
+	"color_scheme": "Moonlight.sublime-color-scheme",
+	"font_face": "Hasklig",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 17,
+	"line_padding_bottom": 2,
+	"line_padding_top": 1,
+	"word_wrap": "true",
+	"ignored_packages": [
+	],
+	"hide_minimap": true,
+	"caret_style": "phase",
+	"theme": "Adaptive.sublime-theme",
+	// "trim_trailing_white_space_on_save": "all",
+	"ensure_newline_at_eof_on_save": true,
+}
