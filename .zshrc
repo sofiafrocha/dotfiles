@@ -1,17 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/sofiaroc/.oh-my-zsh
-
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME=""
 
 # Pure theme prompt
-autoload -U promptinit; promptinit
-prompt pure
+# autoload -U promptinit; promptinit
+# prompt pure
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -58,16 +55,6 @@ prompt pure
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  zsh-autosuggestions
-)
-
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -111,6 +98,7 @@ alias gca="git commit -a --ammend"
 alias gcm="git commit -m"
 alias glog='git log --pretty=format:"#%C(yellow)%h %ad%Cred%d: %Creset%s%Cblue [%cn]" --decorate --date=relative'
 alias gal="git add -p"
+alias gst="git status"
 
 # Service alias
 alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
@@ -122,3 +110,7 @@ alias asdf-append-node='echo "nodejs 12.16.1" >> .tool-versions'
 
 # Load asdf
 source $HOME/.asdf/asdf.sh
+
+export AWS_PROFILE=sts
+
+eval "$(starship init zsh)"
