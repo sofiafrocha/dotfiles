@@ -7,21 +7,21 @@
 		"coverage/*",
 		"deps/*",
 	],
-	"color_scheme": "Moonlight.sublime-color-scheme",
-	"font_face": "Hasklig",
+	"theme": "One.sublime-theme",
+	"color_scheme": "One Light.sublime-color-scheme",
+	"font_face": "Hasklug Nerd Font",
 	"font_options":
 	[
 		"gray_antialias"
 	],
 	"font_size": 17,
 	"line_padding_bottom": 2,
-	"line_padding_top": 1,
+	"line_padding_top": 2,
 	"word_wrap": "true",
 	"ignored_packages": [
 	],
 	"hide_minimap": true,
 	"caret_style": "phase",
-	"theme": "Adaptive.sublime-theme",
-	// "trim_trailing_white_space_on_save": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"indent_guide_options": ["draw_active_single"],
 }
