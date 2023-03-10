@@ -6,7 +6,9 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Astro",
 		"ayu",
+		"Catppuccin color schemes",
 		"DistractionFreeWindow",
 		"Elixir",
 		"Emmet",
@@ -14,12 +16,16 @@
 		"HyperClick",
 		"JsPrettier",
 		"LSP",
+		"LSP-astro",
+		"LSP-elixir",
 		"LSP-eslint",
 		"LSP-typescript",
 		"Package Control",
+		"Pretty JSON",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"Theme - One",
 	],
 }
