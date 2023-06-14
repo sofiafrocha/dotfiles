@@ -1,0 +1,5 @@
+return {
+  {
+    "willthbill/opener.nvim",
+  },
+}
