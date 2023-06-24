@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "# NAME_GOES_HERE - Candidate\n\n## Challenge Review\n[Implementation](LINK_GOES_HERE)\n\n📃[[Challenge Review Guidelines]]\n\n\n### Notes\n- \n\n### Possible questions\n- \n\n### Feedback for Greenhouse\n\n**State\/API Logic:**\n- Query construction: \n- Fetching data: \n- Error\/empty state: \n\n**Search performance:**\n- Debouncer: \n- Slow network scenarios: \n\n**Layout:**\n- CSS Organization: \n- Attention to detail: \n\n**A11Y:**\n- Semantic HTML: \n- Keyboard navigation: \n\n**Tests:**\n> Did the candidate add tests? Are components being tested individually? Or are there tests covering the high-level functionality of the application?\n\n**Code Review:**\n- Mistakes pointed out: \n- Tone: \n\n**Extra:**\n\n**Private review:**\n\n**Follow up questions**\n\n\n## Interview\n[Interview Kit | Greenhouse](LINK_GOES_HERE)\n\n![[Interview questions#Our questions]]\n[Examples of interview questions - Notion](https:\/\/www.notion.so\/remotecom\/people-Examples-of-Interview-Questions-b9e7eb770b714dff822f2636519ace95)\n\n### Questions from the challenge\n-\n\n### Specific questions\n-\n\n### Notes\n\n\n### Feedback for Greenhouse\n\n\n---\n#remotecom #work",
+    "uid" : "C7BCBCED-E1C3-4BA5-B075-52EB7DD9FFEC",
+    "name" : "Candidate - Challenge review and interview",
+    "keyword" : "candidate"
+  }
+}

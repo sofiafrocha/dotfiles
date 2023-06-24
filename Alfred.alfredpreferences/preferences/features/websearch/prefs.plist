@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>37853BCA-6729-44ED-AF05-6E6015EA1E46</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>dragon master pipeline</string>
+			<key>text</key>
+			<string>Open Dragon's pipeline for the "master" branch</string>
+			<key>url</key>
+			<string>https://gitlab.com/remote-com/employ-starbase/dragon/-/pipelines?page=1&amp;scope=all&amp;ref=master</string>
+		</dict>
+		<key>3E5B8B7C-745D-4E20-B4CB-8778CAA2CA92</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>merge requests</string>
+			<key>text</key>
+			<string>My Merge Requests</string>
+			<key>url</key>
+			<string>https://gitlab.com/dashboard/merge_requests?assignee_username=sofiafrocha</string>
+		</dict>
+		<key>5F89CED8-45C2-46F7-854D-E3C8C65294C3</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>new epic</string>
+			<key>text</key>
+			<string>New GitLab Epic</string>
+			<key>url</key>
+			<string>https://gitlab.com/groups/remote-com/-/epics/new</string>
+		</dict>
+		<key>65DB9A7A-8342-4B54-A703-5A22A7C2DA5B</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>new issue</string>
+			<key>text</key>
+			<string>New GitLab Issue</string>
+			<key>url</key>
+			<string>https://gitlab.com/remote-com/employ-starbase/tracker/-/issues/new</string>
+		</dict>
+		<key>770E9FE1-4531-4D15-8CE7-29403E66EDE4</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>spotify</string>
+			<key>text</key>
+			<string>Search Spotify for '{query}'</string>
+			<key>url</key>
+			<string>https://open.spotify.com/search/{query}</string>
+		</dict>
+		<key>CE020073-5767-4005-AE32-6FF32E10AEB2</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>code reviews</string>
+			<key>text</key>
+			<string>My Code Reviews</string>
+			<key>url</key>
+			<string>https://gitlab.com/dashboard/merge_requests?reviewer_username=sofiafrocha</string>
+		</dict>
+		<key>F7AD2813-E77D-4D4F-AD1A-CA540152DE7B</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>board engineering</string>
+			<key>text</key>
+			<string>Board: Engineering</string>
+			<key>url</key>
+			<string>https://gitlab.com/groups/remote-com/-/boards/3511712?label_name[]=team%3A%3Abenefits&amp;label_name[]=Engineering</string>
+		</dict>
+	</dict>
+	<key>onlyShowEnabledInPrefs</key>
+	<true/>
+</dict>
+</plist>
