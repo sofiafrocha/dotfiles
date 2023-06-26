@@ -106,6 +106,7 @@ alias gcm="git commit -m"
 alias glog='git log --pretty=format:"#%C(yellow)%h %ad%Cred%d: %Creset%s%Cblue [%cn]" --decorate --date=relative'
 alias gal="git add -p"
 alias gst="git status"
+alias gco="git checkout"
 
 # Service alias
 alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
@@ -121,3 +122,6 @@ source $HOME/.asdf/asdf.sh
 export AWS_PROFILE=sts
 
 eval "$(starship init zsh)"
+
+# The next line updates PATH for Netlify's Git Credential Helper.
+test -f '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc'
