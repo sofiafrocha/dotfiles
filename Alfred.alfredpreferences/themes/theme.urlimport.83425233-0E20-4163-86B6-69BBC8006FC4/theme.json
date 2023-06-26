@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 9,
+        "colorSelected" : "#FFFFFFA7",
+        "font" : "System",
+        "color" : "#FFFFFF6F"
+      },
+      "shortcut" : {
+        "size" : 15,
+        "colorSelected" : "#FFFFFF9E",
+        "font" : "System",
+        "color" : "#FFFFFF7E"
+      },
+      "backgroundSelected" : "#0000001F",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FFFFFFAD"
+      },
+      "iconPaddingHorizontal" : 9,
+      "roundness" : 0,
+      "paddingVertical" : 7,
+      "iconSize" : 28
+    },
+    "search" : {
+      "backgroundSelected" : "#00000055",
+      "paddingHorizontal" : 8,
+      "spacing" : 0,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System Light",
+        "color" : "#FFFFFFFF"
+      },
+      "background" : "#FFFFFF00",
+      "roundness" : 0,
+      "paddingVertical" : 7
+    },
+    "window" : {
+      "color" : "#5831AE91",
+      "paddingHorizontal" : 0,
+      "width" : 596,
+      "borderPadding" : 0,
+      "borderColor" : "#000000FF",
+      "blur" : 0,
+      "roundness" : 3,
+      "paddingVertical" : 0
+    },
+    "credit" : "Loke Carlsson",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#CD00FFFF",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#00000033",
+      "thickness" : 3
+    },
+    "name" : "Classy"
+  }
+}

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>3E9A940B-A65E-42EB-A09B-BE1AD6C9D29B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C576C42E-4658-4293-9F2D-1B6BB34949DB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4270AF5F-D0B0-4137-BC53-76B7C36568F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>704E9C3C-837F-42C8-8A94-CD17221671EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>888C31EB-3DEB-4ECE-A80D-235362703704</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44673B29-9DBF-45E4-930D-CFCC14D3C849</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1456471-2BDB-4B8E-938A-507EB097A3CD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CBAE1FD4-D4EB-493C-8814-F8F8621894ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>89548A6B-F50A-4FE4-BBF7-663599365F0C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string>Terminal setups for most frequent projects</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Open Envs</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>env glossary</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>glossary-tool terminal setup</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B11B132B-4A61-4C05-8F4F-2111F454E6C6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "iTerm2"
+	create window with default profile
+
+	--- Tab 1 Backend
+	tell first session of current tab of current window
+		set name to "(glossary-tool) Backend"
+		write text "glossary-tool"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 2 Frontend
+	tell first session of second tab of current window
+		set name to "(glossary-tool) Frontend"
+		write text "glossary-tool-folder"
+		write text "npm run dev"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 3 Git
+	tell first session of third tab of current window
+		set name to "(glossary-tool) Git"
+		write text "glossary-tool-folder"
+		write text "gs"
+	end tell
+  end tell
+
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>89548A6B-F50A-4FE4-BBF7-663599365F0C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "iTerm2"
+	create window with default profile
+
+	--- Tab 1 Backend
+	tell first session of current tab of current window
+		set name to "(unbabel core) Backend"
+		write text "unbabel"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 2 Frontend
+	tell first session of second tab of current window
+		set name to "(unbabel core) Frontend"
+		write text "unbabel-folder"
+		write text "npm run dev"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 3 Git
+	tell first session of third tab of current window
+		set name to "(unbabel core) Git"
+		write text "unbabel-folder"
+		write text "gs"
+	end tell
+  end tell
+
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>CBAE1FD4-D4EB-493C-8814-F8F8621894ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>env unbabel</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>unbabel (core) terminal setup</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A1456471-2BDB-4B8E-938A-507EB097A3CD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "iTerm2"
+	create window with default profile
+
+	--- Tab 1 Backend
+	tell first session of current tab of current window
+		set name to "(annotation-tool) Backend"
+		write text "annotation-tool"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 2 Frontend
+	tell first session of second tab of current window
+		set name to "(annotation-tool) Frontend"
+		write text "annotation-tool-folder"
+		write text "npm run dev"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 3 Git
+	tell first session of third tab of current window
+		set name to "(annotation-tool) Git"
+		write text "annotation-tool-folder"
+		write text "gs"
+	end tell
+  end tell
+
+
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>704E9C3C-837F-42C8-8A94-CD17221671EB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>env annotation-tool</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>annotation-tool terminal setup</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4270AF5F-D0B0-4137-BC53-76B7C36568F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "iTerm2"
+	create window with default profile
+
+	--- Tab 1 Backend
+	tell first session of current tab of current window
+		set name to "(evaluation-tool) Backend"
+		write text "evaluation-tool"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 2 Frontend
+	tell first session of second tab of current window
+		set name to "(evaluation-tool) Frontend"
+		write text "evaluation-tool-folder"
+		write text "npm run dev"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 3 Git
+	tell first session of third tab of current window
+		set name to "(evaluation-tool) Git"
+		write text "evaluation-tool-folder"
+		write text "gs"
+	end tell
+  end tell
+
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>C576C42E-4658-4293-9F2D-1B6BB34949DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>env evaluation-tool</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>evaluation-tool terminal setup</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3E9A940B-A65E-42EB-A09B-BE1AD6C9D29B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>env markup_aligner</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>markup_aligner terminal setup</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>888C31EB-3DEB-4ECE-A80D-235362703704</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "iTerm2"
+	create window with default profile
+
+	--- Tab 1 Backend
+	tell first session of current tab of current window
+		set name to "markup_aligner Backend"
+		write text "markup_aligner"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 2 Frontend
+	tell first session of second tab of current window
+		set name to "markup_aligner Frontend"
+		write text "markup_aligner-folder"
+		write text "npm run dev"
+	end tell
+
+	tell current window
+		create tab with default profile
+	end tell
+
+	--- Tab 3 Git
+	tell first session of third tab of current window
+		set name to "markup_aligner Git"
+		write text "markup_aligner-folder"
+		write text "gs"
+	end tell
+  end tell
+
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>44673B29-9DBF-45E4-930D-CFCC14D3C849</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3E9A940B-A65E-42EB-A09B-BE1AD6C9D29B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>480</integer>
+		</dict>
+		<key>4270AF5F-D0B0-4137-BC53-76B7C36568F1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>340</integer>
+		</dict>
+		<key>44673B29-9DBF-45E4-930D-CFCC14D3C849</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>704E9C3C-837F-42C8-8A94-CD17221671EB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>340</integer>
+		</dict>
+		<key>888C31EB-3DEB-4ECE-A80D-235362703704</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>89548A6B-F50A-4FE4-BBF7-663599365F0C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>A1456471-2BDB-4B8E-938A-507EB097A3CD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>C576C42E-4658-4293-9F2D-1B6BB34949DB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>480</integer>
+		</dict>
+		<key>CBAE1FD4-D4EB-493C-8814-F8F8621894ED</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
