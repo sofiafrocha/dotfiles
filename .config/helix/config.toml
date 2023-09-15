@@ -1,0 +1,13 @@
+theme = "sonokai_maia"
+
+[editor]
+auto-save = true
+bufferline = "multiple"
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
