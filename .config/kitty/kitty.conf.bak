@@ -1,3 +1,9 @@
+tab_bar_min_tabs 1
+# tab_bar_edge bottom
+tab_bar_style powerline
+tab_powerline_style slanted
+tab_title_template {title}{' : {}:'.format(num_windows) if num_windows > 1 else ''}
+
 # vim:fileencoding=utf-8:foldmethod=marker
 
 #: Fonts {{{
@@ -912,7 +918,7 @@ window_padding_width 10
 
 #: Tab bar {{{
 
-# tab_bar_edge bottom
+tab_bar_edge top 
 
 #: The edge to show the tab bar on, top or bottom.
 
@@ -1408,7 +1414,7 @@ window_padding_width 10
 #: builds do not do update checking. Changing this option by reloading
 #: the config is not supported.
 
-# startup_session none
+startup_session startup_session.conf
 
 #: Path to a session file to use for all kitty instances. Can be
 #: overridden by using the kitty --session =none command line option
@@ -2389,3 +2395,9 @@ window_padding_width 10
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_THEME
+# Monokai Pro
+include current-theme.conf
+# END_KITTY_THEME
