@@ -11,3 +11,6 @@ hidden = false
 normal = "block"
 insert = "bar"
 select = "underline"
+
+[editor.lsp]
+auto-signature-help = false
