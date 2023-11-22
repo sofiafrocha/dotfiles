@@ -125,3 +125,6 @@ eval "$(starship init zsh)"
 
 # The next line updates PATH for Netlify's Git Credential Helper.
 test -f '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc'
+
+# Load psql from the Postgres.app
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
