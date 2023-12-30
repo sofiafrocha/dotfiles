@@ -90,6 +90,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias ".."="cd .."
 alias symlink="ln -s"
 alias lls="exa --long --header --icons -a --no-permissions --no-user --git"
+alias cat="bat"
 
 # Folder alias
 CODE_FOLDER=/Users/sofiaroc/Code
