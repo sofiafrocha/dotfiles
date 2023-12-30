@@ -89,6 +89,7 @@ alias hide-hidden-files="defaults write com.apple.finder AppleShowAllFiles FALSE
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias ".."="cd .."
 alias symlink="ln -s"
+alias lls="exa --long --header --icons -a --no-permissions --no-user --git"
 
 # Folder alias
 CODE_FOLDER=/Users/sofiaroc/Code
