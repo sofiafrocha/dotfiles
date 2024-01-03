@@ -118,12 +118,19 @@ alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.
 alias asdf-add-node='echo "nodejs 12.16.1" > .tool-versions'
 alias asdf-append-node='echo "nodejs 12.16.1" >> .tool-versions'
 
-# Load asdf
-source $HOME/.asdf/asdf.sh
-
 export AWS_PROFILE=sts
 
 eval "$(starship init zsh)"
 
 # The next line updates PATH for Netlify's Git Credential Helper.
 test -f '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc'
+
+# For M1 mac (Air)
+export PATH="/opt/homebrew/bin:$PATH"
+
+# bun completions
+[ -s "/Users/sofiaroc/.bun/_bun" ] && source "/Users/sofiaroc/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
