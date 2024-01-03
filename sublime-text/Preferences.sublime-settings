@@ -8,7 +8,7 @@
 		"deps/*",
 	],
 	"theme": "One.sublime-theme",
-	"color_scheme": "Macchiato.sublime-color-scheme",
+	"color_scheme": "auto",
 	"font_face": "Hasklug Nerd Font",
 	"font_options":
 	[
@@ -25,4 +25,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"indent_guide_options": ["draw_active_single"],
 	"relative_line_numbers": true,
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"index_files": true,
 }
