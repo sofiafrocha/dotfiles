@@ -1,9 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "sudo lsof -i tcp:{port}",
-    "dontautoexpand" : true,
-    "uid" : "D63B9483-DC71-43F7-A8B6-8A3EE1EDE015",
-    "name" : "list processes running on port",
-    "keyword" : "port"
-  }
-}

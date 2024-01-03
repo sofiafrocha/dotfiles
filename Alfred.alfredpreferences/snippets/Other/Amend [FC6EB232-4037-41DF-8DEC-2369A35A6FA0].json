@@ -1,9 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "git commit --amend -m \"\"",
-    "dontautoexpand" : true,
-    "uid" : "FC6EB232-4037-41DF-8DEC-2369A35A6FA0",
-    "name" : "Amend",
-    "keyword" : "amend"
-  }
-}

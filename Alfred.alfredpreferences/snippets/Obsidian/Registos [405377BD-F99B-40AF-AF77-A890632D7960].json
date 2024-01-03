@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "# {date:long}\n\n## 🗓 Acontecimentos\n* dia - acontecimento\n\n\n## 💪 Exercício\n* dia\n    + [link_para_garmin_connect]()\n    + tipo\n\n\n## 💭 Pensamentos\n\n> What's on my mind? What am I grateful for? What am I worrying about that I can't control?\n\n### Domingo\n### Segunda\n### Terça\n### Quarta\n### Quinta\n### Sexta\n### Sábado\n\n\n## 🥦 Meal Plan\n[Meal Plan Aqui]()\n\n\n## 🎯 Objectivos\n\n\n## ➡️ Followup da semana passada\n- [ ] ação_aqui\n\n\n## 👀 Revisão\n+ Manter\n+ Começar\n+ Menos\n\n#registos\n",
-    "uid" : "405377BD-F99B-40AF-AF77-A890632D7960",
-    "name" : "Registos",
-    "keyword" : "registos"
-  }
-}
