@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Chester</key>
@@ -4479,7 +4481,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>D248D969-6F41-426B-BD2A-A5FBB36198D7</string>
+	<string>48618F18-8E10-4EB2-AFFA-C5FC300B9B4C</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
