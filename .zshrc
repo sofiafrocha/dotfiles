@@ -84,10 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 # General alias
-alias show-hidden-files="defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder"
-alias hide-hidden-files="defaults write com.apple.finder AppleShowAllFiles FALSE;killall Finder"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias ".."="cd .."
 alias symlink="ln -s"
 alias lls="exa --long --header --icons -a --no-permissions --no-user --git"
 alias cat="bat"
@@ -100,6 +97,7 @@ alias tiger-folder="cd $CODE_FOLDER/tiger"
 alias tiger="cd $CODE_FOLDER/tiger && mix phx.server"
 
 alias dragon-folder="cd $CODE_FOLDER/dragon"
+# TODO: update this
 alias dragon="cd $CODE_FOLDER/dragon && npm run dev"
 
 # Git alias
@@ -110,20 +108,9 @@ alias gal="git add -p"
 alias gst="git status"
 alias gco="git checkout"
 
-# Service alias
-alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-
-# asdf alias
-alias asdf-add-node='echo "nodejs 12.16.1" > .tool-versions'
-alias asdf-append-node='echo "nodejs 12.16.1" >> .tool-versions'
-
 export AWS_PROFILE=sts
 
 eval "$(starship init zsh)"
-
-# The next line updates PATH for Netlify's Git Credential Helper.
-test -f '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/sofiaroc/Library/Preferences/netlify/helper/path.zsh.inc'
 
 # For M1 mac (Air)
 export PATH="/opt/homebrew/bin:$PATH"
