@@ -11,7 +11,7 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 ## Pre-requisites
 - [Monaspace Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Monaspace.zip)
 - [iTerm2](https://iterm2.com/)
-- [Everforest color theme for iTerm](https://github.com/icewind/everforest.iterm2)
+- [Catpuccin Theme for iTerm2](https://github.com/catppuccin/iterm/blob/main/colors/catppuccin-macchiato.itermcolors)
 
 ## Terminal
 - [Brew](https://docs.brew.sh/Installation)
@@ -27,8 +27,9 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 - [1Password](https://my.1password.com/)
 - [Postgres.app](https://postgresapp.com/)
 - [Beepkeeper Studio Community Edition](https://github.com/beekeeper-studio/beekeeper-studio)
-- [Raycast](https://www.raycast.com/)
 - [Obsidian](https://obsidian.md/)
+- [Alfred](https://www.alfredapp.com/)
 - [Things](https://culturedcode.com/things/)
 - [Rectangle Pro](https://rectangleapp.com/)
 - [AltTab](https://alt-tab-macos.netlify.app/)
+- [Hyper](https://hyper.is/)
