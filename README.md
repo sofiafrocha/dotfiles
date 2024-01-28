@@ -1,10 +1,10 @@
 # my dotfiles
 
 ```
-ln -s ./.zshrc ~/.zshrc
-ln -s ./starship.toml ~/starship.toml
-ln -s ./.vimrc ~/.vimrc
-ln -s ./config ~/.config
+ln -s ~/Code/dotfiles/.zshrc  ~/.zshrc
+ln -s ~/Code/dotfiles/starship.toml ~/starship.toml
+ln -s ~/Code/dotfiles/.vimrc ~/.vimrc
+ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 ```
 
 ## Pre-requisites
