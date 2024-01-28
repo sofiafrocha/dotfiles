@@ -2,6 +2,7 @@
 
 ```
 ln -s ~/Code/dotfiles/.zshrc  ~/.zshrc
+ln -s ~/Code/dotfiles/.hyper.js  ~/.hyper.js
 ln -s ~/Code/dotfiles/starship.toml ~/starship.toml
 ln -s ~/Code/dotfiles/.vimrc ~/.vimrc
 ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
