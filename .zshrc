@@ -57,7 +57,11 @@ ZSH_THEME=""
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(zsh-autosuggestions)
+plugins=(
+# zsh-autosuggestions
+)
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $ZSH/oh-my-zsh.sh
 

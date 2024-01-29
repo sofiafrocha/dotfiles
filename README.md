@@ -16,10 +16,11 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 ## Terminal
 - [Brew](https://docs.brew.sh/Installation)
 - [Oh My ZSH](https://ohmyz.sh/#install)
+- [ZSH autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#manual-git-clone)
 - [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 - [Helix](https://docs.helix-editor.com/install.html#homebrew-core)
 - [Mise](https://github.com/jdx/mise#quickstart)
-- [Exa](https://the.exa.website/install)
+- [Eza](https://github.com/eza-community/eza)
 - [Bat](https://github.com/sharkdp/bat#on-macos-or-linux-via-homebrew)
 
 
