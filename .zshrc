@@ -128,3 +128,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Load psql from the Postgres.app
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+eval "$(/Users/sofiaroc/.local/bin/mise activate zsh)"
