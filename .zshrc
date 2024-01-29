@@ -90,7 +90,7 @@ source $ZSH/oh-my-zsh.sh
 # General alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias symlink="ln -s"
-alias ls="exa --long --header --icons -a --no-permissions --no-user --git"
+alias ls="eza --long --header --icons -a --no-permissions --no-user --git"
 alias cat="bat"
 
 # Folder alias
