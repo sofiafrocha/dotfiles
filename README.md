@@ -22,6 +22,7 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 - [Mise](https://github.com/jdx/mise#quickstart)
 - [Eza](https://github.com/eza-community/eza)
 - [Bat](https://github.com/sharkdp/bat#on-macos-or-linux-via-homebrew)
+- [Typescript LSP](https://github.com/typescript-language-server/typescript-language-server)
 
 
 ## Apps
