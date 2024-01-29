@@ -31,7 +31,7 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 - [Obsidian](https://obsidian.md/)
 - [Alfred](https://www.alfredapp.com/)
 - [Things](https://culturedcode.com/things/)
-- [Rectangle Pro](https://rectangleapp.com/)
+- [Rectangle Pro](https://rectangleapp.com/pro)
 - [AltTab](https://alt-tab-macos.netlify.app/)
 - [Hyper](https://hyper.is/)
 
