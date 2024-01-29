@@ -34,6 +34,7 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 - [Rectangle Pro](https://rectangleapp.com/pro)
 - [AltTab](https://alt-tab-macos.netlify.app/)
 - [Hyper](https://hyper.is/)
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
 
 ## Resources
 - [Use a specific SSH key to clone a repo](https://ralphjsmit.com/git-custom-ssh-key)
