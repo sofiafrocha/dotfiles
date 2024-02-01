@@ -19,4 +19,4 @@ display-messages = true
 
 [keys.normal]
 d = "delete_selection_noyank"
-y = "yank_main_selection_to_clipboard"
+Y = "yank_main_selection_to_clipboard"
