@@ -1,0 +1,6 @@
+tap "homebrew/bundle"
+tap "jesseduffield/lazygit"
+brew "gnupg"
+brew "pdftk-java"
+cask "1password-cli"
+cask "wkhtmltopdf"
