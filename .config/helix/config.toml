@@ -14,6 +14,8 @@ select = "underline"
 
 [editor.lsp]
 auto-signature-help = false
+# Show LSP messages in the status line
+display-messages = true
 
 [keys.normal]
 d = "delete_selection_noyank"
