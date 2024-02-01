@@ -57,7 +57,11 @@ ZSH_THEME=""
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(zsh-autosuggestions)
+plugins=(
+# zsh-autosuggestions
+)
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,7 +90,7 @@ source $ZSH/oh-my-zsh.sh
 # General alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias symlink="ln -s"
-alias ls="exa --long --header --icons -a --no-permissions --no-user --git"
+alias ls="eza --long --header --icons -a --no-permissions --no-user --git"
 alias cat="bat"
 
 # Folder alias
@@ -124,3 +128,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Load psql from the Postgres.app
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+eval "$(/Users/sofiaroc/.local/bin/mise activate zsh)"

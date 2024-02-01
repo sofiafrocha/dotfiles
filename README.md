@@ -16,11 +16,13 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 ## Terminal
 - [Brew](https://docs.brew.sh/Installation)
 - [Oh My ZSH](https://ohmyz.sh/#install)
+- [ZSH autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#manual-git-clone)
 - [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 - [Helix](https://docs.helix-editor.com/install.html#homebrew-core)
 - [Mise](https://github.com/jdx/mise#quickstart)
-- [Exa](https://the.exa.website/install)
+- [Eza](https://github.com/eza-community/eza)
 - [Bat](https://github.com/sharkdp/bat#on-macos-or-linux-via-homebrew)
+- [Typescript LSP](https://github.com/typescript-language-server/typescript-language-server)
 
 
 ## Apps
@@ -30,6 +32,10 @@ ln -s ~/Code/dotfiles/.config/helix ~/.config/helix
 - [Obsidian](https://obsidian.md/)
 - [Alfred](https://www.alfredapp.com/)
 - [Things](https://culturedcode.com/things/)
-- [Rectangle Pro](https://rectangleapp.com/)
+- [Rectangle Pro](https://rectangleapp.com/pro)
 - [AltTab](https://alt-tab-macos.netlify.app/)
 - [Hyper](https://hyper.is/)
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
+
+## Resources
+- [Use a specific SSH key to clone a repo](https://ralphjsmit.com/git-custom-ssh-key)

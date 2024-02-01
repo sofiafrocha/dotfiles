@@ -1,4 +1,0 @@
-[
-	{ "caption": "View: Toggle Focus Mode", "command": "toggle_distraction_free" },
-	{ "caption": "Groups: Split Right", "command": "new_pane" },
-]
