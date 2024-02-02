@@ -37,3 +37,4 @@ brew bundle install --file Brewfile-Work
 
 ## Resources
 - [Use a specific SSH key to clone a repo](https://ralphjsmit.com/git-custom-ssh-key)
+- [Add a small space to the dock](https://git.herrbischoff.com/awesome-macos-command-line/about/#add-a-small-space)
