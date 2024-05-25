@@ -63,6 +63,9 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # Make auto-completion have colors
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
+# Use fzf for command history
+eval "$(fzf --zsh)"
+
 # General alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias symlink="ln -s"
