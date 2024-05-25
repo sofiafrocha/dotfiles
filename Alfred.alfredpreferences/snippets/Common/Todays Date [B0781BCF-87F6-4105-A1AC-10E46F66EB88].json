@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "{date:YYYY-MM-dd}",
+    "uid" : "B0781BCF-87F6-4105-A1AC-10E46F66EB88",
+    "name" : "Today's Date",
+    "keyword" : "date"
+  }
+}
