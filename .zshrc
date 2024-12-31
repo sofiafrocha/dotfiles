@@ -99,3 +99,6 @@ eval "$(/Users/sofiaroc/.local/bin/mise activate zsh)"
 
 # Load the starship prompt
 eval "$(starship init zsh)"
+
+# For the hledger
+export HLEDGER_UI_EDITOR=hx
