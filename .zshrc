@@ -21,6 +21,12 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
+# Add in powerlevel10k
+source /usr/local/Cellar/powerlevel10k/1.20.0/share/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
@@ -84,7 +90,9 @@ alias gco="git checkout"
 export AWS_PROFILE=sts
 
 # For M1 mac (Air)
-export PATH="/opt/homebrew/bin:$PATH"
+# export PATH="/opt/homebrew/bin:$PATH"
+
+. /usr/local/opt/asdf/libexec/asdf.sh
 
 # bun completions
 [ -s "/Users/sofiaroc/.bun/_bun" ] && source "/Users/sofiaroc/.bun/_bun"
