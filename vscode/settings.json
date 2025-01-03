@@ -1,0 +1,19 @@
+{
+    "window.commandCenter": 1,
+    "editor.fontSize": 14,
+    "editor.guides.indentation": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Bearded Theme Monokai Metallian",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.enablePreview": false,
+    "breadcrumbs.enabled": false,
+    "editor.lineNumbers": "off",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.iconTheme": "bearded-icons"
+}
