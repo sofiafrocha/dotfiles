@@ -1,6 +1,7 @@
 {
   "alfredsnippet" : {
     "snippet" : "Expenses:",
+    "dontautoexpand" : true,
     "uid" : "73A39ECD-FA3E-4F7C-BBB2-7385EED4181C",
     "name" : "",
     "keyword" : "e"
