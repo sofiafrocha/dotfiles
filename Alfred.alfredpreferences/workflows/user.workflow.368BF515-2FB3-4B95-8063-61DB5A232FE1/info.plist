@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>06593CB1-C8AB-4668-AADA-620DF4D81306</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F61A0D1-0913-436A-A8F8-CECF0ABA839F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66514AE0-F7D3-4A8C-B754-BE24443D3242</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06593CB1-C8AB-4668-AADA-620DF4D81306</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open iTerm tabs for development enviroments</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "iTerm2"
+  tell current window
+	create tab with profile "🐲 Dragon" 
+  end tell
+
+  tell current window
+	create tab with profile "🤖 Remote AI" 
+  end tell  
+
+  tell current window
+	create tab with profile "🐯 Tiger" 
+  end tell
+
+  tell current window
+	create tab with profile "⛑️ Boba" 
+  end tell  
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6F61A0D1-0913-436A-A8F8-CECF0ABA839F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>dev</string>
+				<key>subtext</key>
+				<string>Dragon, Tiger, Boba, Remote AI</string>
+				<key>text</key>
+				<string>Open iTerm tabs for development</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>66514AE0-F7D3-4A8C-B754-BE24443D3242</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/iTerm.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>06593CB1-C8AB-4668-AADA-620DF4D81306</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>06593CB1-C8AB-4668-AADA-620DF4D81306</key>
+		<dict>
+			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>66514AE0-F7D3-4A8C-B754-BE24443D3242</key>
+		<dict>
+			<key>note</key>
+			<string>Type your keyword into Alfred to trigger this workflow.</string>
+			<key>xpos</key>
+			<real>140</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>6F61A0D1-0913-436A-A8F8-CECF0ABA839F</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>245</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
