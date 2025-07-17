@@ -1,6 +1,7 @@
 {
   "alfredsnippet" : {
-    "snippet" : "Expenses:Food:Restaurant",
+    "snippet" : "Expenses:Food:Restaurants",
+    "dontautoexpand" : true,
     "uid" : "6BFD5F76-632C-474E-ADF2-C4B1ED39A31C",
     "name" : "",
     "keyword" : "res"
