@@ -58,6 +58,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 eval "$(fzf --zsh)"
 
 # General alias
+alias git='LANG=en_US.UTF-8 git'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias symlink="ln -s"
 alias ls="eza --long --header --icons -a --no-permissions --no-user --git"
@@ -96,6 +97,8 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Load psql from the Postgres.app
+# export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
 eval "$(/opt/homebrew/bin/mise activate zsh)"
 
 # Load the starship prompt
