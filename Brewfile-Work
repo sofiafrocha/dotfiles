@@ -3,5 +3,7 @@ tap "jesseduffield/lazygit"
 brew "gnupg"
 brew "pdftk-java"
 brew "awscli"
+brew "mise"
 cask "1password-cli"
 cask "wkhtmltopdf"
+

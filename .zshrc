@@ -1,3 +1,7 @@
+# Make it work with Workbrew
+export PATH="/opt/workbrew/bin:/opt/homebrew/bin:$PATH"
+eval $(/opt/workbrew/bin/brew shellenv)
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -21,19 +25,13 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
-# Add in powerlevel10k
-# source /usr/local/Cellar/powerlevel10k/1.20.0/share/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 
 # Load completions
-autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit -i
 
 # History
 HISTSIZE=5000
@@ -85,15 +83,7 @@ alias gal="git add -p"
 alias gst="git status"
 alias gco="git checkout"
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 export AWS_PROFILE=sts
-
-# For M1 mac (Air)
-# export PATH="/opt/homebrew/bin:$PATH"
-
-# . /usr/local/opt/asdf/libexec/asdf.sh
 
 # bun completions
 [ -s "/Users/sofiaroc/.bun/_bun" ] && source "/Users/sofiaroc/.bun/_bun"
@@ -104,7 +94,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Load psql from the Postgres.app
 # export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
-# eval "$(/Users/sofiaroc/.local/bin/mise activate zsh)"
+
+eval "$(/opt/homebrew/bin/mise activate zsh)"
 
 # Load the starship prompt
 eval "$(starship init zsh)"
