@@ -73,14 +73,18 @@ alias tiger="cd $CODE_FOLDER/tiger && mix phx.server"
 alias dragon-folder="cd $CODE_FOLDER/dragon"
 # TODO: update this
 alias dragon="cd $CODE_FOLDER/dragon && npm run dev"
+alias test="yarn workspace @remote-com/employ test:file"
 
 # Git alias
-alias gca="git commit -a --ammend"
-alias gcm="git commit -m"
+alias gca="git commit --amend -m "
+gcm() {
+    git commit -m "$*"
+}
 alias glog='git log --pretty=format:"#%C(yellow)%h %ad%Cred%d: %Creset%s%Cblue [%cn]" --decorate --date=relative'
 alias gal="git add -p"
 alias gst="git status"
 alias gco="git checkout"
+alias gback="git checkout -"
 
 export AWS_PROFILE=sts
 
