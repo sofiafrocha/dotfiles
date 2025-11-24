@@ -17,6 +17,20 @@ auto-signature-help = true
 # Show LSP messages in the status line
 display-messages = true
 
+[editor.soft-wrap]
+enable = true
+
 [keys.normal]
 d = "delete_selection_noyank"
 Y = "yank_main_selection_to_clipboard"
+C-g = [
+    ":write-all",
+    ":new",
+    ":insert-output lazygit",
+    ":buffer-close!",
+    ":redraw",
+    ":reload-all"
+]
+C-a = [":sh unibear add_file %{buffer_name}"]
+C-j = "half_page_down"
+C-k = "half_page_up"
