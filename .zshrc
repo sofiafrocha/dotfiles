@@ -78,7 +78,7 @@ alias dragon-folder="cd $CODE_FOLDER/dragon"
 alias dragon="cd $CODE_FOLDER/dragon && npm run dev"
 
 # Git alias
-alias gca="git commit -a --ammend"
+alias gca="git commit --amend -m"
 alias gcm="git commit -m"
 alias glog='git log --pretty=format:"#%C(yellow)%h %ad%Cred%d: %Creset%s%Cblue [%cn]" --decorate --date=relative'
 alias gal="git add -p"
@@ -103,11 +103,8 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Load psql from the Postgres.app
-export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
-eval "$(/Users/sofiaroc/.local/bin/mise activate zsh)"
+# export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+# eval "$(/Users/sofiaroc/.local/bin/mise activate zsh)"
 
 # Load the starship prompt
 eval "$(starship init zsh)"
-
-# For the hledger
-export HLEDGER_UI_EDITOR=hx
