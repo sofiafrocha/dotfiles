@@ -60,6 +60,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 eval "$(fzf --zsh)"
 
 # General alias
+alias git='LANG=en_US.UTF-8 git'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias symlink="ln -s"
 alias ls="eza --long --header --icons -a --no-permissions --no-user --git"
