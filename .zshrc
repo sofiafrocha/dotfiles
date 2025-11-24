@@ -31,7 +31,7 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 
 # Load completions
-autoload -Uz compinit && compinit -i
+autoload -U compinit && compinit -u
 
 # History
 HISTSIZE=5000
